@@ -1,0 +1,45 @@
+*{margin:0;padding:0;}
+html{
+	font-size:14px;
+}
+body{
+	background: #f4f4f4;
+}
+.bg-trans{
+	background: transparent;
+}
+.my-w100{
+	width:100%;
+	max-width:1240px;
+	margin:auto;
+}
+.w-40{
+	width:40% !important;
+}
+.titleFont{
+	font-size:1.5rem;
+}
+.font999{
+	color:#999;
+}
+.row{
+	margin-right: -5px;
+	margin-left: -5px;
+}
+.row>[class^="col-"]{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+a{
+	text-decoration: none;
+}
+a.mybtn{
+	display:inline-block;
+	padding:0.3rem 1rem;
+	border-radius:1rem;
+	color:#fff;
+	background:#0bbbef;
+}
+a:hover{
+	text-decoration:none;
+}
