@@ -5,7 +5,6 @@ import Index from '@/views/index'
 import Register from '@/views/register'
 import Login from '@/views/login'
 import Cart from '@/views/cart'
-import Test from '@/views/test'
 
 Vue.use(Router)
 
@@ -16,7 +15,6 @@ export default new Router({
     {path:"/header", component: Header},
     {path:"/reg", component: Register},
     {path:"/login", component: Login},
-    {path: '/cart', component:Cart},
-    {path: '/test', component: Test}
+    {path: '/cart', component:Cart}
   ]
 })
